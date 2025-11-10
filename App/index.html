@@ -1,117 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AgroConecta – Plataforma Sustentável</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body class="bg-green-50 text-gray-800 font-sans">
-    <nav
-      class="bg-green-700 text-white p-4 flex justify-between items-center shadow-md"
-    >
-      <h1 class="text-2xl font-bold">AgroConecta</h1>
-      <div class="space-x-4">
-        <a href="login.html" class="hover:text-green-200">Entrar</a>
-        <a
-          href="cadastro.html"
-          class="bg-white text-green-700 px-3 py-1 rounded-xl font-semibold hover:bg-green-100"
-          >Cadastrar</a
-        >
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AgroConecta – Plataforma Sustentável</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-green-50 text-gray-800 font-sans">
+  <nav class="bg-green-700 text-white p-4 flex justify-between items-center shadow-md">
+    <h1 class="text-2xl font-bold">AgroConecta</h1>
+    <div class="space-x-4">
+      <a href="login.html" class="hover:text-green-200">Entrar</a>
+      <a href="cadastro.html"
+        class="bg-white text-green-700 px-3 py-1 rounded-xl font-semibold hover:bg-green-100">Cadastrar</a>
+    </div>
+  </nav>
+
+  <section class="text-center py-16 bg-gradient-to-b from-green-600 to-green-400 text-white">
+    <h2 class="text-4xl font-bold mb-4">Conectando o campo à cidade</h2>
+    <p class="text-lg mb-6">
+      Ajudando produtores, consumidores e instituições a crescer juntos.
+    </p>
+    <a href="cadastro.html"
+      class="bg-white text-green-700 px-6 py-2 rounded-full font-semibold hover:bg-green-100">Conheça a plataforma</a>
+  </section>
+
+  <section class="max-w-6xl mx-auto grid md:grid-cols-3 gap-6 my-16 px-4">
+    <div class="bg-white shadow-lg rounded-2xl p-6 text-center">
+      <div class="text-5xl mb-4">👨‍🌾</div>
+      <h3 class="text-xl font-bold mb-2">Cadastre-se como Produtor</h3>
+      <p>Mostre seus produtos e alcance novos consumidores e instituições.</p>
+    </div>
+
+    <div class="bg-white shadow-lg rounded-2xl p-6 text-center">
+      <div class="text-5xl mb-4">🛒</div>
+      <h3 class="text-xl font-bold mb-2">Compre direto do campo</h3>
+      <p>Encontre alimentos frescos e apoie a agricultura sustentável.</p>
+    </div>
+
+    <div class="bg-white shadow-lg rounded-2xl p-6 text-center">
+      <div class="text-5xl mb-4">❤️</div>
+      <h3 class="text-xl font-bold mb-2">Doe alimentos e ajude</h3>
+      <p>Contribua com ONGs e projetos sociais que combatem a fome.</p>
+    </div>
+  </section>
+
+  <section class="bg-white py-16 text-center">
+    <h2 class="text-3xl font-bold mb-6">🗺️ Pontos de Coleta e Venda</h2>
+    <div class="max-w-4xl mx-auto border rounded-2xl h-64 flex items-center justify-center text-gray-500 italic">
+      <p>(Mapa interativo aqui)</p>
+    </div>
+  </section>
+
+  <section class="bg-green-100 py-16 text-center">
+    <h2 class="text-3xl font-bold mb-6">❤️ Área de Doações</h2>
+    <form class="max-w-3xl mx-auto bg-white p-6 rounded-2xl shadow">
+      <div class="grid md:grid-cols-3 gap-4 mb-4">
+        <input type="text" placeholder="Produto" class="border p-2 rounded" />
+        <input type="text" placeholder="Quantidade" class="border p-2 rounded" />
+        <input type="text" placeholder="Local de entrega" class="border p-2 rounded" />
       </div>
-    </nav>
+      <button class="bg-green-700 text-white px-6 py-2 rounded-xl hover:bg-green-800">
+        Enviar Doação
+      </button>
+    </form>
+  </section>
 
-    <section
-      class="text-center py-16 bg-gradient-to-b from-green-600 to-green-400 text-white"
-    >
-      <h2 class="text-4xl font-bold mb-4">Conectando o campo à cidade</h2>
-      <p class="text-lg mb-6">
-        Ajudando produtores, consumidores e instituições a crescer juntos.
-      </p>
-      <a
-        href="cadastro.html"
-        class="bg-white text-green-700 px-6 py-2 rounded-full font-semibold hover:bg-green-100"
-        >Conheça a plataforma</a
-      >
-    </section>
-
-    <section class="max-w-6xl mx-auto grid md:grid-cols-3 gap-6 my-16 px-4">
-      <div class="bg-white shadow-lg rounded-2xl p-6 text-center">
-        <div class="text-5xl mb-4">👨‍🌾</div>
-        <h3 class="text-xl font-bold mb-2">Cadastre-se como Produtor</h3>
-        <p>Mostre seus produtos e alcance novos consumidores e instituições.</p>
+  <section class="py-16 bg-white text-center">
+    <h2 class="text-3xl font-bold mb-8">📚 Sessão Educativa</h2>
+    <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto px-4">
+      <div class="bg-green-50 p-6 rounded-xl shadow">
+        <h3 class="font-semibold mb-2">Compostagem Doméstica</h3>
+        <p>Aprenda a transformar restos orgânicos em adubo natural.</p>
       </div>
-
-      <div class="bg-white shadow-lg rounded-2xl p-6 text-center">
-        <div class="text-5xl mb-4">🛒</div>
-        <h3 class="text-xl font-bold mb-2">Compre direto do campo</h3>
-        <p>Encontre alimentos frescos e apoie a agricultura sustentável.</p>
+      <div class="bg-green-50 p-6 rounded-xl shadow">
+        <h3 class="font-semibold mb-2">Consumo Consciente</h3>
+        <p>Dicas para reduzir o desperdício e fazer compras sustentáveis.</p>
       </div>
-
-      <div class="bg-white shadow-lg rounded-2xl p-6 text-center">
-        <div class="text-5xl mb-4">❤️</div>
-        <h3 class="text-xl font-bold mb-2">Doe alimentos e ajude</h3>
-        <p>Contribua com ONGs e projetos sociais que combatem a fome.</p>
+      <div class="bg-green-50 p-6 rounded-xl shadow">
+        <h3 class="font-semibold mb-2">Agricultura Orgânica</h3>
+        <p>Entenda os benefícios da produção sem agrotóxicos.</p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="bg-white py-16 text-center">
-      <h2 class="text-3xl font-bold mb-6">🗺️ Pontos de Coleta e Venda</h2>
-      <div
-        class="max-w-4xl mx-auto border rounded-2xl h-64 flex items-center justify-center text-gray-500 italic"
-      >
-        <p>(Mapa interativo aqui)</p>
-      </div>
-    </section>
+  <footer class="bg-green-700 text-white text-center py-6 mt-10">
+    <div class="space-x-4 mt-2">
+      <a href="#" class="hover:text-green-200">Sobre</a>
+      <a href="#" class="hover:text-green-200">Contato</a>
+      <a href="#" class="hover:text-green-200">Termos de Uso</a>
+    </div>
+  </footer>
+</body>
 
-    <section class="bg-green-100 py-16 text-center">
-      <h2 class="text-3xl font-bold mb-6">❤️ Área de Doações</h2>
-      <form class="max-w-3xl mx-auto bg-white p-6 rounded-2xl shadow">
-        <div class="grid md:grid-cols-3 gap-4 mb-4">
-          <input type="text" placeholder="Produto" class="border p-2 rounded" />
-          <input
-            type="text"
-            placeholder="Quantidade"
-            class="border p-2 rounded"
-          />
-          <input
-            type="text"
-            placeholder="Local de entrega"
-            class="border p-2 rounded"
-          />
-        </div>
-        <button
-          class="bg-green-700 text-white px-6 py-2 rounded-xl hover:bg-green-800"
-        >
-          Enviar Doação
-        </button>
-      </form>
-    </section>
-
-    <section class="py-16 bg-white text-center">
-      <h2 class="text-3xl font-bold mb-8">📚 Sessão Educativa</h2>
-      <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto px-4">
-        <div class="bg-green-50 p-6 rounded-xl shadow">
-          <h3 class="font-semibold mb-2">Compostagem Doméstica</h3>
-          <p>Aprenda a transformar restos orgânicos em adubo natural.</p>
-        </div>
-        <div class="bg-green-50 p-6 rounded-xl shadow">
-          <h3 class="font-semibold mb-2">Consumo Consciente</h3>
-          <p>Dicas para reduzir o desperdício e fazer compras sustentáveis.</p>
-        </div>
-        <div class="bg-green-50 p-6 rounded-xl shadow">
-          <h3 class="font-semibold mb-2">Agricultura Orgânica</h3>
-          <p>Entenda os benefícios da produção sem agrotóxicos.</p>
-        </div>
-      </div>
-    </section>
-
-    <footer class="bg-green-700 text-white text-center py-6 mt-10">
-      <div class="space-x-4 mt-2">
-        <a href="#" class="hover:text-green-200">Sobre</a>
-        <a href="#" class="hover:text-green-200">Contato</a>
-        <a href="#" class="hover:text-green-200">Termos de Uso</a>
-      </div>
-    </footer>
-  </body>
 </html>
