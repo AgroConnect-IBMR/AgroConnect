@@ -38,6 +38,8 @@ Confira abaixo o estágio de desenvolvimento da nossa plataforma (Foco Mobile Fi
 ![Breve demonstração da tela principal do protótipo AgroConnect] 
 https://www.figma.com/design/NQO1xY7R0bXG1ZCSpbIGiJ/AgroConecta?node-id=0-1&t=orZQVTIMsePgftCF-1
 
+https://github.com/user-attachments/assets/cb954370-517b-44f6-a5e2-f45c096b7aa9
+
 ---
 
 ## 🚀 Instalação e Execução (Guia Rápido)
