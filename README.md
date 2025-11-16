@@ -76,6 +76,35 @@ Siga os passos abaixo para clonar o projeto e executá-lo em seu ambiente de des
     ```
 
 ---
+## 🛠 Tecnologias Utilizadas
+
+O projeto AgroConecta foi desenvolvido utilizando um conjunto moderno de tecnologias para garantir desempenho, acessibilidade, escalabilidade e uma experiência de usuário fluida. As principais tecnologias empregadas foram:
+
+### 🌐 Front-end
+- **HTML5** – Estruturação semântica das páginas do projeto.
+- **CSS3** – Estilização complementar e ajustes visuais personalizados.
+- **TailwindCSS** – Framework utilitário para estilização ágil e responsiva.
+- **Bootstrap 5** – Componentes visuais dinâmicos como botões, grid e modais.
+- **JavaScript (ES6+)** – Lógica interativa, filtros do mapa e eventos do usuário.
+
+### 🗺️ Mapa Interativo
+- **Leaflet.js** – Biblioteca open-source para mapas dinâmicos e personalizáveis.
+- **OpenStreetMap** – Base de dados cartográfica utilizada no mapa.
+
+### 🎨 Ícones e UI
+- **Emoji Icons** – Ícones leves e nativos para navegação simplificada.
+- **SVG e PNG Icons (Leaflet)** – Ícones personalizados para marcadores de mapa.
+
+### 🔧 Ferramentas de Desenvolvimento
+- **VS Code** – Editor de código utilizado na construção do projeto.
+- **Git + GitHub** – Versionamento, controle de código e colaboração.
+- **Live Server** – Visualização local do projeto durante o desenvolvimento.
+
+### 📱 Responsividade
+- **Mobile-first** – Abordagem priorizando telas menores.
+- **Grid e Flexbox** – Layout fluido adaptado a diferentes resoluções.
+
+---
 
 ## 🚧 Status do Projeto
 
