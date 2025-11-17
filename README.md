@@ -84,7 +84,6 @@ O projeto AgroConecta foi desenvolvido utilizando um conjunto moderno de tecnolo
 - **HTML5** – Estruturação semântica das páginas do projeto.
 - **CSS3** – Estilização complementar e ajustes visuais personalizados.
 - **TailwindCSS** – Framework utilitário para estilização ágil e responsiva.
-- **Bootstrap 5** – Componentes visuais dinâmicos como botões, grid e modais.
 - **JavaScript (ES6+)** – Lógica interativa, filtros do mapa e eventos do usuário.
 
 ### 🗺️ Mapa Interativo
