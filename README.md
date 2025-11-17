@@ -41,7 +41,7 @@ https://www.figma.com/design/NQO1xY7R0bXG1ZCSpbIGiJ/AgroConecta?node-id=0-1&t=or
 https://github.com/user-attachments/assets/cb954370-517b-44f6-a5e2-f45c096b7aa9
 
 
-https://youtu.be/iEusIrq_8zw?si=1h6YVItjIGnkaUoG
+https://youtu.be/iEusIrq_8zw?si=1h6YVItjIGnkaUoG (explicação do projeto por rafael dutra rangel)
 ---
 
 ## 🚀 Instalação e Execução (Guia Rápido)
