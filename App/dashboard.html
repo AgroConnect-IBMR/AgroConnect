@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgroConecta – Bem-vindo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-green-50 text-gray-800">
+
+  <nav class="bg-green-700 text-white p-4">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">AgroConecta</h1>
+
+      
+      <button id="btnSair"
+              class="px-4 py-1 rounded border border-red-500 text-red-500 
+                     bg-transparent hover:bg-red-500 hover:text-white transition">
+        Sair
+      </button>
+    </div>
+  </nav>
+
+  
+  <section class="max-w-4xl mx-auto mt-10 bg-white shadow p-8 rounded-xl text-center">
+    <h2 id="msgBoasVindas" class="text-3xl font-bold mb-4">Bem-vindo!</h2>
+    <p class="text-lg text-gray-700">Estamos felizes em ter você aqui no AgroConecta.</p>
+  </section>
+
+  
+  <section class="max-w-6xl mx-auto mt-10 grid grid-cols-1 md:grid-cols-3 gap-6 px-4">
+    
+    <div class="bg-white p-6 rounded-xl shadow text-center hover:shadow-lg transition">
+      <h3 class="font-bold text-xl mb-2">📦 Meus Produtos</h3>
+      <p class="text-gray-600 mb-3">Gerencie seus produtos cadastrados.</p>
+      <button class="bg-green-600 text-white px-4 py-2 rounded">Acessar</button>
+    </div>
+
+    <div class="bg-white p-6 rounded-xl shadow text-center hover:shadow-lg transition">
+      <h3 class="font-bold text-xl mb-2">❤️ Minhas Doações</h3>
+      <p class="text-gray-600 mb-3">Veja e acompanhe suas doações.</p>
+      <button class="bg-green-600 text-white px-4 py-2 rounded">Acessar</button>
+    </div>
+
+    <div class="bg-white p-6 rounded-xl shadow text-center hover:shadow-lg transition">
+      <h3 class="font-bold text-xl mb-2">⚙️ Conta</h3>
+      <p class="text-gray-600 mb-3">Altere nome, email e configurações.</p>
+      <button class="bg-green-600 text-white px-4 py-2 rounded">Acessar</button>
+    </div>
+
+  </section>
+
+  <script>
+    
+    const urlParams = new URLSearchParams(window.location.search);
+    const usuario = urlParams.get("usuario") || localStorage.getItem("usuarioUser");
+
+    
+    if (usuario) {
+      document.getElementById("msgBoasVindas").textContent = "Bem-vindo(a), " + usuario + "!";
+    }
+
+    
+    document.getElementById("btnSair").onclick = function () {
+      localStorage.removeItem("usuarioUser");
+      window.location.href = "login.html";
+    };
+  </script>
+
+</body>
+</html>
