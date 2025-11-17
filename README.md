@@ -114,3 +114,9 @@ O projeto AgroConecta foi desenvolvido utilizando um conjunto moderno de tecnolo
 ## 👥 Desenvolvedores (Autores)
 
 Este projeto foi desenvolvido como A3 do IBMR por:
+
+Davi Ferreira(aluno) 12624213715
+Lucas Ottvagen(aluno) 12624117292
+David Antony(aluno) 1262429556
+Miguel Oliveira(aluno) 1262514767
+Rafael Dutra Rangel(aluno) 12624213241
