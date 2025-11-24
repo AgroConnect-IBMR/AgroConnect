@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cadastro – AgroConecta</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="users.js" defer></script>
+  <script src="register.js" defer></script>
 </head>
 
 <body class="bg-green-50 flex flex-col items-center justify-center min-h-screen">
@@ -16,20 +18,21 @@
     <form class="space-y-4">
 
       <div class="grid md:grid-cols-2 gap-4">
-        <input type="text" placeholder="Nome completo" class="border p-3 rounded w-full" required />
-        <input type="email" placeholder="E-mail" class="border p-3 rounded w-full" required />
-        <input type="password" placeholder="Senha" class="border p-3 rounded w-full" required />
-        <input type="text" placeholder="Cidade / Região" class="border p-3 rounded w-full" required />
+        <input type="text" placeholder="Nome completo" id="nome" class="border p-3 rounded w-full" required />
+        <input type="email" placeholder="E-mail" id="email" class="border p-3 rounded w-full" required />
+        <input type="password" placeholder="Senha" id="senha" class="border p-3 rounded w-full" required />
+        <input type="text" placeholder="Cidade / Região" id="cidade" class="border p-3 rounded w-full" required />
       </div>
 
-      <select class="border p-3 rounded w-full" required>
+      <select id="perfil" class="border p-3 rounded w-full" required>
         <option value="">Selecione seu perfil</option>
         <option value="produtor">Sou Produtor</option>
         <option value="consumidor">Sou Consumidor</option>
         <option value="ong">Sou ONG</option>
       </select>
 
-      <button class="bg-green-700 text-white w-full py-3 rounded-xl font-bold hover:bg-green-800">
+      <button type="submit" id="registrar"
+        class="bg-green-700 text-white w-full py-3 rounded-xl font-bold hover:bg-green-800">
         Criar Conta
       </button>
     </form>
